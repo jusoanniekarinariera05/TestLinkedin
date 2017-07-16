@@ -25,7 +25,7 @@ public class SmokeTest {
 	    
 	}
 
-	@When("^I Enter valid username and  valid password$")
+	@When("^I Enter username and password$")
 	public void I_Enter_valid_username_and_valid_password() throws Throwable {
 		
 		driver.findElement(By.id("login-email")).sendKeys("PR234598@gmail.com");
