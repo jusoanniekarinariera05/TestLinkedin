@@ -32,8 +32,8 @@ public class SmokeTest {
 		driver.findElement(By.id("login-password")).sendKeys("98764512");
 	}
 
-	@Then("^User should be able to login successfully$")
-	public void User_should_be_able_to_login_successfully() throws Throwable {
+	@Then("^User does not exist$")
+	public void User_does_be_not_exist() throws Throwable {
 		
 		driver.findElement(By.id("login-submit")).click();
 	    
